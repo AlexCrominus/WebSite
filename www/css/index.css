@@ -1,19 +1,10 @@
 body {
     background-color: blueviolet;
 }
-#sname {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    color: rgba(1,1,1,0.7);
+a {
+    color: white;
 }
-
-#sname a {
+a :hover {
     font-weight: bold;
-    font-size: 4em;
-    transition: all 500ms;
-}
-    
-#sname a:hover {
-    font-size:88px;
-    font-size-adjust: 20px;
+    color: greenyellow;
 }

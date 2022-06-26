@@ -4,7 +4,3 @@ body {
 a {
     color: white;
 }
-a :hover {
-    font-weight: bold;
-    color: greenyellow;
-}

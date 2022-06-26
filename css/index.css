@@ -1,13 +1,15 @@
 body {
     background-color: blueviolet;
 }
-a:link {
+a {
     color: white;
+    font-size: medium;
   }
   
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  font-weight: bold;
+  font-size: larger;
 }
 
 

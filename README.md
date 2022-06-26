@@ -22,4 +22,4 @@ TEMA SITE
 - i like *purple*
 - troll face maybe 
 - sa arate de calitate
-- animatii de nivel apple
+- animatii de nivel apple Ü

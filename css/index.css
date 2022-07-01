@@ -23,6 +23,43 @@ body {
 .button-container > .button {
   flex: 2;
   text-align: center;
+  border-radius: 4px;
+  background-color: #b03aff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 a {
     position: sticky;
@@ -30,7 +67,19 @@ a {
     color: white;
     font-size: medium;
 } 
-a:hover {
-  font-weight: bold; 
+.button-container > .active_button {
+  font-weight: bold;
+  flex: 2;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #b92ff8;
+  border: none;
+  color: #ebebeb;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
-

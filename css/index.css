@@ -1,0 +1,85 @@
+body {
+    background-color: blueviolet;
+}
+#title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #C496CE, 0px 0px 20px #AB6FCE, 0px 0px 30px #8E2FCE;
+}
+  /*animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}*/
+.button-container{
+  display: flex;
+}
+.button-container > .button {
+  flex: 2;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #b03aff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; 
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+a {
+    position: sticky;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+} 
+.button-container > .active_button {
+  font-weight: bold;
+  flex: 2;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #b92ff8;
+  border: none;
+  color: #ebebeb;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
